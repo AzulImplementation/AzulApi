@@ -1,6 +1,6 @@
 [project]
 name = "azul_api"
-version = "1.0.1"
+version = "1.0.2"
 authors = [{name = "Evaldas Visockas", email = "developersediary@gmail.com"}]
 description = "An API for Azul board game"
 readme = "README.md"
@@ -12,12 +12,6 @@ dependencies = [
     "flasgger>=0.9.7.1"
 ]
 
-[project.optional-dependencies]
-dev = [
-    "pytest>=8.3.4",
-    "pytest-cov>=6.1.1"
-]
-
 [project.urls]
 Repository = "https://github.com/AzulImplementation/AzulApi"
 
@@ -27,7 +21,3 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 packages = ["azul_api"]
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-python_files = ["*_test.py"]
