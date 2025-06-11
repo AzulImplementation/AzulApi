@@ -1,8 +1,10 @@
 from flask import jsonify
-from azul.factory_taking_request import FactoryTakingRequest
-from azul.center_taking_request import CenterTakingRequest
+from factory_taking_request import FactoryTakingRequest
+from center_taking_request import CenterTakingRequest
+
 
 class GameController:
+    
     def __init__(self, game):
         self.game = game
 

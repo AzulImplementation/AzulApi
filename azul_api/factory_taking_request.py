@@ -1,6 +1,6 @@
-from azul.action_not_allowed_exception import ActionNotAllowedException
-from azul.tile import Tile
-from azul.game import Game
+from azul_game_engine.action_not_allowed_exception import ActionNotAllowedException
+from azul_game_engine.tile import Tile
+from azul_game_engine.game import Game
 
 
 class FactoryTakingRequest:
