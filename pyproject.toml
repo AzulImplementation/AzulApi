@@ -1,6 +1,6 @@
 [project]
 name = "azul_api"
-version = "1.0.2"
+version = "1.0.3"
 authors = [{name = "Evaldas Visockas", email = "developersediary@gmail.com"}]
 description = "An API for Azul board game"
 readme = "README.md"

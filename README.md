@@ -1,6 +1,8 @@
 # AzulApi
 
-A API for Azul board game.
+[![PyPI version](https://badge.fury.io/py/azul-api.svg)](https://pypi.org/project/azul-api/)
+
+An API for Azul board game.
 
 Original game: [https://en.wikipedia.org/wiki/Azul_(board_game)](Azul).
 
