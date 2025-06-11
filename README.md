@@ -22,7 +22,7 @@ Alternatively read `main.py` which has Swagger documentation.
 
 ## Notes
 
-`K` `k` represents the black colour.
+`K` or `k` represents the black colour.
 
 A wall cell filled with a lowercase letter means tile is not placed.
 
