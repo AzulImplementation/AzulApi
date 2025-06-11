@@ -36,3 +36,7 @@ build/
 
 .venv/
 __pycache__/
+
+### Other ###
+build/
+azul_api.egg-info/
